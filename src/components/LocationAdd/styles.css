@@ -1,0 +1,24 @@
+.LocationAdd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+  flex: 1;
+}
+
+.LocationAdd-label {
+  padding: 1%;
+  margin-top: 1%;
+}
+
+.LocationAdd-input {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.LocationAdd-button {
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+

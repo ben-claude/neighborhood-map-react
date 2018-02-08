@@ -1,0 +1,19 @@
+.Locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: column;
+  align-items: stretch;
+}
+
+.Locations-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.Locations-button {
+  width: 100%;
+  padding: 5%;
+  margin: 1%;
+  background-color: white;
+}
+

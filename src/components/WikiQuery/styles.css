@@ -1,0 +1,24 @@
+.WikiQuery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+  flex: 1;
+}
+
+.WikiQuery-label {
+  padding: 1%;
+  margin-top: 1%;
+}
+
+.WikiQuery-input {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.WikiQuery-button {
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+

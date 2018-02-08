@@ -1,0 +1,50 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-adminButton {
+  background-color: white;
+  padding: 5%;
+  margin: 1%;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.Home-menuButton {
+  background-color: white;
+  padding: 5%;
+  margin: 1%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .menu {
+    display: flex;
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1%;
+}
+
